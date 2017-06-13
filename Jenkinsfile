@@ -10,6 +10,10 @@ pipeline {
                     ls -lah
                 '''
             }
+        stage('Yup') {
+            steps {
+                sh ./try.sh
+            }
         }
     }
 }

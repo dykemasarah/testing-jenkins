@@ -1,0 +1,8 @@
+-   repo: git://github.com/dykemasarah/pre-commit-hooks
+    sha: v0.4.2
+    hooks:
+    -   id: trailing-whitespace
+    -   id: debug-statements
+    -   id: detect-private-key
+    -   id: pyflakes
+    -   id: check-json

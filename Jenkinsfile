@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Yup') {
             steps {
-                sh ./try.sh
+                sh './try.sh'
             }
         }
     }
